@@ -22,6 +22,58 @@ input,
 button {
   font-family: "Roboto";
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(33, 33, 33);
+  color: rgb(212, 212, 212);
+  padding: 2rem;
+  font-size: 2rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body,
+input,
+button {
+  font-family: "Roboto";
+}
+
+input {
+  border-radius: 8px;
+  padding: 0.5rem;
+  border: none;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style-type: none;
+  /* border-bottom: 1px solid; */
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 8px;
+  width: 200px;
+  margin-top: 1rem;
+}
 
 input {
   border-radius: 8px;
